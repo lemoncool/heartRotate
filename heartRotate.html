@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>heartRotate</title>
+    <link href="heartRotate.css" rel="stylesheet">
+</head>
+<body>
+<div id="ui">
+    <div class="love" v-for="item in itemList">
+        <div class="love_horizontal">
+            <div class="love_vertical">
+                <div class="love_word">{{item}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el: '#ui',
+        data: function () {
+            return {
+                itemList: ['????', 'sit', 'ярату', 'conse', 'ctetur', 'ярату', 'icing', 'elit', '', 'K?rlek', 'tecto', 'munay', 'kj?rlighet', 'с?й??', '??????????', 'с?ю', 'minima', 'Dragoste', '???', 'Láska', '???', 'Commod', 'muna?a', 'Sevgi', '?убав', 'karout', 'amà', '', 'Cinta', '?убовта', 'Meil?', 'Mīlestība', '爱', 'Meil?', 'Grá', 'Szerelem', '????', 'am?r', 'offi', 'k?rleiki', 'mborayhu', 'tempora', 'Upendo', 'Szerelem', '????', 'Mahal', 'Armastus', 'Láska', 'Ljubav', 'Любов', 'Каханне', 'Dashuri', 'Liefde', '??', 'Αγ?πη', 'Cinta', '?????', '?????', 'Любовь', 'Lorem', 'ipsum', '????', 'sit', 'ярату', 'conse', 'ctetur', 'ярату', 'icing', 'elit', '', 'K?rlek', 'sòòyayyàà', '???????', 'A?k', 'Tình yêu', '????', 'Love']
+            }
+        }
+    })
+</script>
+</body>
+</html>
